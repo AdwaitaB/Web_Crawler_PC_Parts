@@ -12,6 +12,9 @@ header {
     color: white;
     padding: 20px 0;
 }
+header:hover {
+    background-color: aquamarine;
+}
 
 header h1 {
     margin: 0;
@@ -20,6 +23,7 @@ header h1 {
 
 main {
     padding: 200px;
+    color:#005bb5
 }
 
 section {
@@ -52,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #005bb5;
+    background-color: #8500b5;
 }
 
 footer {
