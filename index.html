@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website with Buttons and info</h1>
+        <p>A basic page with buttons to display information.</p>
+    </header>
+    <main>
+        <section id="About" class="hidden">
+            <h2>INFO</h2>
+            <p>This is the first product.</p>
+        </section>
+        <section id="contact" class="hidden">
+            <h2>Contact Info</h2>
+            <p>Email: example@domain.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Products</li>
+                <li>Project 2: Prices</li>
+                <li>Project 3: Cart</li>
+            </ul>
+        </section>
+        <section id="Extra button" class="hidden">
+            <h2>Extra button</h2>
+            <p> This contains additional products.</p>
+            <li>Motherboard</li>
+            <li>Graphics card</li>
+            <li>Monitor</li>
+
+        </section>
+        <div class="buttons">
+            <button onclick="showSection('About')">info</button>
+            <button onclick="showSection('contact')">Button 2</button>
+            <button onclick="showSection('projects')">Projects</button>
+            <button onclick="hideSections()">Hide button</button>
+            <button onclick="showSection('Extra button')">Extra button</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Project: Web Crawler</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
